@@ -67,9 +67,84 @@
     <!-- dark navbar -->
     <section id="dark-navbar">
 
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-5">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-bars header-icon"></i>ALL CATEGORY
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service Ticket</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-light language-btn"><i class="fas fa-flag-usa header-icon"></i>English</button>
+            </li>
+          </ul>
+        </div>
+
+
+      </nav>
+
     </section>
+
   </header>
+
   <main>
+    <!-- carousel AD -->
+    <section id="ad-section">
+
+      <div id="adIndicators" class="carousel slide text-center" data-bs-ride=false>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#adIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#adIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#adIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active ad-background">
+            <h6>AD</h6>
+            <p>1920 x 400</p>
+          </div>
+          <div class="carousel-item ad-background">
+            <h6>AD</h6>
+            <p>1920 x 400</p>
+          </div>
+          <div class="carousel-item ad-background">
+            <h6>AD</h6>
+            <p>1920 x 400</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
 
   </main>
   <footer>

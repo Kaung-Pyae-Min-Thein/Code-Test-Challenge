@@ -6,6 +6,7 @@
 /* .company-logo{
   width:50%;
 } */
+/* header */
 .search-button{
   position: relative;
   right: 2rem;
@@ -17,4 +18,15 @@
 }
 .light-header-text{
   margin-bottom: 0;
+}
+.language-btn{
+  position: relative;
+  left: 50%;
+}
+/* ad */
+.ad-background{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  background-color: #dddddd;
 }
