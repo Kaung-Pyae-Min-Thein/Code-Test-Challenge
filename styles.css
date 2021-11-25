@@ -1,17 +1,8 @@
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-/* .company-logo{
-  width:50%;
-} */
-/* header */
-nav{
+/* nav{
  position: -webkit-sticky; /* Safari */
- position: sticky;
- top: 0;
-}
+ /* position: sticky;
+ top: 0; */
+/* }  */
 .search-button {
   position: relative;
   right: 2rem;
@@ -101,7 +92,7 @@ nav{
   width: 90%;
 }
 .footer-box{
-  background: linear-gradient(to right, #000000, #0000e6);
+  background: linear-gradient(to right, #000000, #000000 );
   color: white;
 }
 .discount-badge{
@@ -117,4 +108,8 @@ nav{
 }
 .item-hover:hover{
   top: -15px;
+}
+/* out of stock */
+.out-of-item{
+  opacity: 0.5;
 }
