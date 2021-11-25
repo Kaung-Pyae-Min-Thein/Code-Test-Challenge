@@ -30,3 +30,15 @@
   align-items: center;
   background-color: #dddddd;
 }
+/* promation */
+.promation-container{
+  margin: 3rem 0;
+}
+.promation-div{
+  background-color: #eeeeee;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+.promation-img{
+  width: 80%;
+}
