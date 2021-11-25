@@ -7,38 +7,114 @@
   width:50%;
 } */
 /* header */
-.search-button{
+nav{
+ position: -webkit-sticky; /* Safari */
+ position: sticky;
+ top: 0;
+}
+.search-button {
   position: relative;
   right: 2rem;
   width: 4rem;
 }
-.header-icon{
+
+.header-icon {
   position: relative;
   right: 0.5rem;
 }
-.light-header-text{
+
+.light-header-text {
   margin-bottom: 0;
 }
-.language-btn{
+
+.language-btn {
   position: relative;
   left: 50%;
 }
+
 /* ad */
-.ad-background{
+.ad-background {
   height: 50vh;
   display: flex;
   align-items: center;
   background-color: #dddddd;
 }
+
 /* promation */
-.promation-container{
+.promation-container {
   margin: 3rem 0;
 }
-.promation-div{
+
+.promation-div {
   background-color: #eeeeee;
   padding: 1.5rem;
   margin: 2rem;
 }
-.promation-img{
+
+.promation-img {
   width: 80%;
+}
+
+/* latest products */
+.header-text {
+  margin: 3rem 0;
+}
+
+.card-img {
+  background-color: #eeeeee;
+  width: 80%;
+}
+
+.arrow-icon {
+  color: gray;
+  margin: 0 1rem;
+}
+
+.card-col {
+  margin: 3rem 0;
+}
+
+.latest-ad {
+  background-color: #eeeeee;
+  width: 1170px;
+  height: 250px;
+}
+
+/* category */
+.category-item {
+  margin-bottom: 2.5rem;
+}
+
+.category-foto {
+  background-color: white;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.category-foto:hover{
+  border: 1px solid red;
+}
+.category-item:hover{
+  color: red;
+}
+.service-logo{
+  width: 90%;
+}
+.footer-box{
+  background: linear-gradient(to right, #000000, #0000e6);
+  color: white;
+}
+.discount-badge{
+  z-index: 1;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+.item-hover{
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.item-hover:hover{
+  top: -15px;
 }
